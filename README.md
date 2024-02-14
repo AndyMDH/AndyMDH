@@ -1,6 +1,6 @@
 ### 👋 Hi there, I'm Andy 
 
-I am passionate about space exploration, robotics, and deep learning reinforcement. I have 4+ years of professional experience in cross-functional teams across Canada, the UK, and the Netherlands in domains such as healthcare, academia, and consulting.
+I am passionate about space exploration, robotics, and deep reinforcement learning. I have roughly 5 years of professional experience in cross-functional teams across Canada, the UK, and the Netherlands in domains such as healthcare and academia.
 
 - 🔭 I’m currently working on vector embeddings and Transfer Desk explainability at Springer Nature AI Lab.
 - 🌱 I’m a Masters student in Artificial Intelligence at the University of Liverpool.
