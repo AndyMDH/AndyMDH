@@ -1,7 +1,6 @@
 ### 👋 Hi there, I'm Andy 
 
-- 🔭 I’m currently working on vector embeddings and Transfer Desk explainability at Springer Nature AI Lab.
-- 🌱 I’m a Masters student in Artificial Intelligence at the University of Liverpool.
+- 🔭 I’m currently working on vector databases and Transfer Desk semantic explainability at Springer Nature AI Lab
 
 <!--
 **AndyMDH/AndyMDH** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
