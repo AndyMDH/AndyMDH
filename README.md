@@ -2,9 +2,7 @@
 
 🔭 I’m currently working on the transfer desk recommender system at Springer Nature AI Lab.
 
-I am highly skilled with SQL, Python, dbt, vector and relational database structures, dimensional modelling, Object-oriented programming (OOP), and various ML/DL libraries for NLP such as TensorFlow, PyTorch, and SpaCy.
-
-In my spare time, you can catch me cycling, playing squash, looking at stars, exploring countries, cooking new food recipes, but always learning new things.
+⚡In my spare time, you can catch me cycling, playing squash, looking at stars, exploring countries, cooking new food recipes, but always learning new things.
 
 <!--
 **AndyMDH/AndyMDH** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
