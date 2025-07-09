@@ -1,6 +1,6 @@
 ### 👋 Hi there, I'm Andy.
 
-🔭 I’m currently working on the transfer desk recommender system at Springer Nature AI Lab.
+🔭 I’m currently working as a ML + AE Engineer at Xomnia
 
 ⚡In my spare time, you can catch me cycling, playing squash, looking at stars, exploring countries, cooking new food recipes, but always learning new things.
 
