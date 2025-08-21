@@ -2,7 +2,7 @@
 
 🔭 I’m currently working at Springer Nature AI Lab.
 
-⚡In my spare time, you can catch me developing apps, cycling around Amsterdam, playing squash, exploring countries, cooking new food recipes, but always learning new things.
+⚡In my spare time, you can catch me developing personal projects, cycling around Amsterdam, playing squash, exploring countries, cooking new food recipes, but always learning new things.
 
 <!--
 **AndyMDH/AndyMDH** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
