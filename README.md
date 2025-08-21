@@ -1,6 +1,6 @@
 ### 👋 Hi there, I'm Andy.
 
-🔭 I’m currently working recommender systems at Springer Nature AI Lab.
+🔭 I’m currently working at Springer Nature AI Lab.
 
 ⚡In my spare time, you can catch me developing apps, cycling around Amsterdam, playing squash, exploring countries, cooking new food recipes, but always learning new things.
 
