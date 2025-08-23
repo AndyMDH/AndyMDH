@@ -2,8 +2,6 @@
 
 🔭 I’m currently working at Springer Nature AI Lab.
 
-I'm originally from Canada and I've lived in Vietnam, the UK, and the Netherlands.
-
 ⚡In my spare time, you can catch me developing personal projects, cycling around Amsterdam, playing squash, exploring countries, cooking new food recipes, but always learning new things.
 
 <!--
