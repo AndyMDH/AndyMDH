@@ -1,6 +1,6 @@
 ### 👋 Hi there, I'm Andy.
 
-🔭 I’m currently working at Springer Nature AI Lab.
+🔭 I’m currently working at Springer Nature AI Lab as a Data Scientist exploring Transfer Desk explainability within academic articles via vector databases.
 
 ⚡In my spare time, you can catch me cycling around Amsterdam, playing squash, exploring new countries, but always learning new things. 
 
