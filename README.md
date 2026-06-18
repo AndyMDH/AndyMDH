@@ -1,6 +1,6 @@
 ### 👋 Hi there, I'm Andy.
 
-🔭 I'm a Data Scientist at Springer Nature AI Lab. I'm currently exploring vector database use cases for explainability within academic article submissions between transfer desks. 
+🔭 I'm currently a Data Scientist at Springer Nature's AI Lab division. 
 
 ⚡In my spare time, you can catch me cycling around Amsterdam, playing squash, exploring new countries, but always learning new things. 
 
