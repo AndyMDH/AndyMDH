@@ -1,6 +1,6 @@
 ### 👋 Hi there, I'm Andy.
 
-🔭 I'm currently a Data Scientist at Springer Nature's AI Lab division. 
+🔭 I'm currently a Data Scientist at Springer Nature's AI Lab division, which houses the world's largest collection of scientific articles. 
 
 ⚡In my spare time, you can catch me cycling around Amsterdam, playing squash, exploring new countries, but always learning new things. 
 
