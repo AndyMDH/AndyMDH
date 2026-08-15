@@ -45,35 +45,43 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
-def truncate(s, max_len):
-    return s if len(s) <= max_len else s[: max_len - 1] + "…"
-
-
 def render_svg(tracks):
     width = 1000
     header_h = 46
     row_h = 96
     height = header_h + row_h + 26
     col_w = width / len(tracks)
+    pad = 18
+    right_margin = 14  # gap kept clear before the divider/edge, inside the clip
 
+    clip_defs = []
     cols = []
     dividers = []
     for i, (name, artist) in enumerate(tracks):
         x = i * col_w
-        pad = 18
+        clip_id = f"col{i}"
+        clip_w = col_w - pad - right_margin
+        clip_defs.append(
+            f'<clipPath id="{clip_id}"><rect x="{x + pad:.1f}" y="{header_h}" '
+            f'width="{clip_w:.1f}" height="{row_h}"/></clipPath>'
+        )
         cols.append(f"""
-  <text x="{x + pad:.1f}" y="{header_h + 26}" font-family="Menlo, monospace" font-size="11" fill="#1DB954">{i + 1:02d}</text>
-  <text x="{x + pad:.1f}" y="{header_h + 48}" font-family="Menlo, monospace" font-size="13.5" font-weight="bold" fill="#ffffff">{esc(truncate(name, int(col_w // 8)))}</text>
-  <text x="{x + pad:.1f}" y="{header_h + 68}" font-family="Menlo, monospace" font-size="12" fill="#9b9b9b">{esc(truncate(artist, int(col_w // 8.5)))}</text>""")
+  <g clip-path="url(#{clip_id})">
+    <text x="{x + pad:.1f}" y="{header_h + 26}" font-family="Menlo, monospace" font-size="11" fill="#1DB954">{i + 1:02d}</text>
+    <text x="{x + pad:.1f}" y="{header_h + 48}" font-family="Menlo, monospace" font-size="13.5" font-weight="bold" fill="#ffffff">{esc(name)}</text>
+    <text x="{x + pad:.1f}" y="{header_h + 68}" font-family="Menlo, monospace" font-size="12" fill="#9b9b9b">{esc(artist)}</text>
+  </g>""")
         if i > 0:
             dividers.append(
                 f'<line x1="{x:.1f}" y1="{header_h + 14}" x2="{x:.1f}" y2="{header_h + row_h - 8}" stroke="#2a2a2a" stroke-width="1"/>'
             )
 
+    defs = "".join(clip_defs)
     body = "".join(cols)
     div_lines = "\n  ".join(dividers)
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
+  <defs>{defs}</defs>
   <rect width="{width}" height="{height}" rx="14" fill="#181818"/>
   <circle cx="24" cy="23" r="8" fill="#1DB954"/>
   <text x="42" y="28" font-family="Menlo, monospace" font-size="15" font-weight="bold" fill="#ffffff">Top tracks this month</text>
