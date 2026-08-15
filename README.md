@@ -1,26 +1,13 @@
 ### 👋 Hi there, I'm Andy.
-*📍 Amsterdam, Netherlands*
+📍 Amsterdam, Netherlands
 
-🔭 I'm currently a Data Scientist at Springer Nature's AI Lab division.
-
-⚡ In my spare time, you can catch me cycling around Amsterdam, playing squash, exploring new countries, but always learning new things.
+- 🔭 I'm currently a Data Scientist at Springer Nature's AI Lab division.
+- 🌱 Building **[focus-up](https://github.com/AndyMDH/focus-up)** — a cozy pixel focus-timer, and **[obsidian-nous](https://github.com/AndyMDH/obsidian-nous)** — native meeting capture for Obsidian.
+- 🛠️ Shipped **[dbt-martmaker](https://github.com/AndyMDH/dbt-martmaker)**, an open-source agent skill that drafts dbt mart models from a metric sheet.
+- 💬 Ask me about dbt, Airflow, or agentic tooling.
+- ⚡ Off the clock: cycling around Amsterdam, playing squash, and exploring new countries.
 
 <br>
 <br>
 
 <img align="right" height="100" src="./IMG/pixel-cat.gif" alt="mew"/>
-
-<!--
-**AndyMDH/AndyMDH** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
-
-Here are some ideas to get you started:
-
-- 🔭 I’m currently working on ...
-- 🌱 I’m currently learning ...
-- 👯 I’m looking to collaborate on ...
-- 🤔 I’m looking for help with ...
-- 💬 Ask me about ...
-- 📫 How to reach me: ...
-- 😄 Pronouns: ...
-- ⚡ Fun fact: ...
--->
