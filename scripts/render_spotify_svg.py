@@ -45,29 +45,42 @@ def esc(s):
     return s.replace("&", "&amp;").replace("<", "&lt;").replace(">", "&gt;")
 
 
+def truncate(s, max_len):
+    return s if len(s) <= max_len else s[: max_len - 1] + "…"
+
+
 def render_svg(tracks):
-    row_h = 34
-    width = 480
-    height = 60 + row_h * len(tracks) + 20
-    rows = []
-    y = 70
-    for i, (name, artist) in enumerate(tracks, start=1):
-        label = f"{i}. {name} — {artist}"
-        if len(label) > 58:
-            label = label[:55] + "..."
-        rows.append(
-            f'<text x="30" y="{y}" font-family="Menlo, monospace" '
-            f'font-size="14" fill="#e5e5e5">{esc(label)}</text>'
-        )
-        y += row_h
-    body = "\n  ".join(rows)
+    width = 1000
+    header_h = 46
+    row_h = 96
+    height = header_h + row_h + 26
+    col_w = width / len(tracks)
+
+    cols = []
+    dividers = []
+    for i, (name, artist) in enumerate(tracks):
+        x = i * col_w
+        pad = 18
+        cols.append(f"""
+  <text x="{x + pad:.1f}" y="{header_h + 26}" font-family="Menlo, monospace" font-size="11" fill="#1DB954">{i + 1:02d}</text>
+  <text x="{x + pad:.1f}" y="{header_h + 48}" font-family="Menlo, monospace" font-size="13.5" font-weight="bold" fill="#ffffff">{esc(truncate(name, int(col_w // 8)))}</text>
+  <text x="{x + pad:.1f}" y="{header_h + 68}" font-family="Menlo, monospace" font-size="12" fill="#9b9b9b">{esc(truncate(artist, int(col_w // 8.5)))}</text>""")
+        if i > 0:
+            dividers.append(
+                f'<line x1="{x:.1f}" y1="{header_h + 14}" x2="{x:.1f}" y2="{header_h + row_h - 8}" stroke="#2a2a2a" stroke-width="1"/>'
+            )
+
+    body = "".join(cols)
+    div_lines = "\n  ".join(dividers)
     updated = datetime.now(timezone.utc).strftime("%Y-%m-%d")
     return f"""<svg xmlns="http://www.w3.org/2000/svg" width="{width}" height="{height}" viewBox="0 0 {width} {height}">
   <rect width="{width}" height="{height}" rx="14" fill="#181818"/>
-  <circle cx="30" cy="32" r="10" fill="#1DB954"/>
-  <text x="50" y="37" font-family="Menlo, monospace" font-size="16" font-weight="bold" fill="#ffffff">Top tracks this month</text>
+  <circle cx="24" cy="23" r="8" fill="#1DB954"/>
+  <text x="42" y="28" font-family="Menlo, monospace" font-size="15" font-weight="bold" fill="#ffffff">Top tracks this month</text>
+  <text x="{width - 18}" y="28" font-family="Menlo, monospace" font-size="10" fill="#6b6b6b" text-anchor="end">updated {updated}</text>
+  <line x1="0" y1="{header_h}" x2="{width}" y2="{header_h}" stroke="#2a2a2a" stroke-width="1"/>
+  {div_lines}
   {body}
-  <text x="30" y="{height - 12}" font-family="Menlo, monospace" font-size="10" fill="#6b6b6b">updated {updated}</text>
 </svg>
 """
 
