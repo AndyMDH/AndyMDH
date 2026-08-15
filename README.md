@@ -1,6 +1,7 @@
 <div align="center">
 
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:0f2027,50:2c5364,100:00c6ff&height=200&section=header&text=Hi,%20I'm%20Andy%20👋&fontSize=48&fontColor=ffffff&animation=fadeIn&desc=Analytics%20%26%20AI%20Engineer%20in%20Amsterdam&descSize=18&descAlignY=58" width="100%" alt="header" />
+# Hi there, I'm Andy 👋
+<img align="right" height="100" src="./IMG/pixel-turtle.svg" alt="pixel turtle"/>
 
 </div>
 
