@@ -1,13 +1,14 @@
-<div align="center">
-
 ### 👋 Hi there, I'm Andy.
-<img align="right" height="100" src="./IMG/pixel-cat.gif" alt="mew"/>
-
-</div>
+*📍 Amsterdam, Netherlands*
 
 🔭 I'm currently a Data Scientist at Springer Nature's AI Lab division.
 
-⚡In my spare time, you can catch me cycling around Amsterdam, playing squash, exploring new countries, but always learning new things. 
+⚡ In my spare time, you can catch me cycling around Amsterdam, playing squash, exploring new countries, but always learning new things.
+
+<br>
+<br>
+
+<img align="right" height="100" src="./IMG/pixel-cat.gif" alt="mew"/>
 
 <!--
 **AndyMDH/AndyMDH** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
