@@ -1,27 +1,25 @@
 <div align="center">
 
-# Hi there, I'm Andy 👋
-<img align="right" height="100" src="./IMG/pixel-turtle.svg" alt="pixel turtle"/>
+### 👋 Hi there, I'm Andy.
+<img align="right" height="100" src="./IMG/pixel-cat.svg" alt="pixel cat"/>
 
 </div>
 
-## About me
+🔭 I'm currently a Data Scientist at Springer Nature's AI Lab division.
 
-- 🔭 **Analytics & AI Engineer**, based in Amsterdam, Netherlands.
-- 🌱 Currently building **[focus-up](https://github.com/AndyMDH/focus-up)** — a cozy pixel focus-timer with zero guilt mechanics, and **[obsidian-nous](https://github.com/AndyMDH/obsidian-nous)** — native meeting capture for Obsidian.
-- 🛠️ Also shipped **[dbt-martmaker](https://github.com/AndyMDH/dbt-martmaker)**, an open-source agent skill that drafts dbt mart models from a metric sheet.
-- 💬 Ask me about **dbt, Airflow, agentic tooling, or Claude Code skills.**
-- ⚡ Fun fact: my ideal Sunday is a long ride around Amsterdam, a squash match, and a stretch of deep work with a fresh flat white.
+⚡In my spare time, you can catch me cycling around Amsterdam, playing squash, exploring new countries, but always learning new things. 
 
-## GitHub stats
+<!--
+**AndyMDH/AndyMDH** is a ✨ _special_ ✨ repository because its `README.md` (this file) appears on your GitHub profile.
 
-<div align="center">
+Here are some ideas to get you started:
 
-<img height="165" src="https://github-readme-stats.vercel.app/api?username=AndyMDH&show_icons=true&theme=tokyonight&hide_border=true&count_private=true" alt="Andy's GitHub stats" />
-<img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndyMDH&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
-
-<img src="https://github-readme-streak-stats.herokuapp.com/?user=AndyMDH&theme=tokyonight&hide_border=true" alt="Streak stats" />
-
-</div>
-
-<img src="https://capsule-render.vercel.app/api?type=waving&color=0:00c6ff,50:2c5364,100:0f2027&height=100&section=footer" width="100%" alt="footer" />
+- 🔭 I’m currently working on ...
+- 🌱 I’m currently learning ...
+- 👯 I’m looking to collaborate on ...
+- 🤔 I’m looking for help with ...
+- 💬 Ask me about ...
+- 📫 How to reach me: ...
+- 😄 Pronouns: ...
+- ⚡ Fun fact: ...
+-->
