@@ -20,19 +20,6 @@
   <img src="https://img.shields.io/badge/Always-📚%20Learning-00c6ff?style=for-the-badge" />
 </div>
 
-## Tech I reach for
-
-<div align="center">
-
-![Python](https://img.shields.io/badge/Python-3776AB?style=for-the-badge&logo=python&logoColor=white)
-![dbt](https://img.shields.io/badge/dbt-FF694B?style=for-the-badge&logo=dbt&logoColor=white)
-![Airflow](https://img.shields.io/badge/Airflow-017CEE?style=for-the-badge&logo=apacheairflow&logoColor=white)
-![Snowflake](https://img.shields.io/badge/Snowflake-29B5E8?style=for-the-badge&logo=snowflake&logoColor=white)
-![Swift](https://img.shields.io/badge/Swift-F05138?style=for-the-badge&logo=swift&logoColor=white)
-![TypeScript](https://img.shields.io/badge/TypeScript-3178C6?style=for-the-badge&logo=typescript&logoColor=white)
-
-</div>
-
 ## GitHub stats
 
 <div align="center">
@@ -41,14 +28,6 @@
 <img height="165" src="https://github-readme-stats.vercel.app/api/top-langs/?username=AndyMDH&layout=compact&theme=tokyonight&hide_border=true" alt="Top languages" />
 
 <img src="https://github-readme-streak-stats.herokuapp.com/?user=AndyMDH&theme=tokyonight&hide_border=true" alt="Streak stats" />
-
-</div>
-
-## Contributions in 3D
-
-<div align="center">
-
-![3D contribution profile](./profile-3d-contrib/profile-night-green.svg)
 
 </div>
 
