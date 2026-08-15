@@ -1,7 +1,7 @@
 <div align="center">
 
 ### 👋 Hi there, I'm Andy.
-<img align="right" height="100" src="./IMG/pixel-cat.svg" alt="pixel cat"/>
+<img align="right" height="100" src="./IMG/pixel-cat.gif" alt="mew"/>
 
 </div>
 
