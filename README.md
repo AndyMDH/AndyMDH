@@ -13,3 +13,5 @@
 <br clear="both">
 
 <img width="100%" src="./assets/spotify-top-tracks.svg" alt="Spotify top tracks"/>
+
+<img width="100%" src="./assets/duolingo.svg" alt="Duolingo streak and practice days"/>
