@@ -1,6 +1,7 @@
 ### 👋 Hi there, I'm Dee Dee
 
 🔭 I'm currently an AI Consultant at Xebia.
+
 🌱 Personal Projects:
 -  **[Trivium](https://github.com/AndyMDH/trivium)** — a daily trivia game for iPhone
 -  **[obsidian-nous](https://github.com/AndyMDH/obsidian-nous)** — native meeting capture for Obsidian.
