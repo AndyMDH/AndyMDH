@@ -1,8 +1,11 @@
 ### 👋 Hi there, I'm Dee Dee
 
 - 🔭 I'm currently an AI Consultant at Xebia.
-- 🌱 Building **[Trivium](https://github.com/AndyMDH/trivium)** — a daily trivia game for iPhone (NYT-Games-style, in design), and **[obsidian-nous](https://github.com/AndyMDH/obsidian-nous)** — native meeting capture for Obsidian.
-- 🛠️ Shipped **[dbt-martmaker](https://github.com/AndyMDH/dbt-martmaker)**, an open-source agent skill that drafts dbt mart models from a metric sheet.
+
+- 🌱 Personal Projects:
+-  **[Trivium](https://github.com/AndyMDH/trivium)** — a daily trivia game for iPhone
+-  **[obsidian-nous](https://github.com/AndyMDH/obsidian-nous)** — native meeting capture for Obsidian.
+- **[dbt-martmaker](https://github.com/AndyMDH/dbt-martmaker)**, an open-source agent skill that drafts dbt mart models from a metric sheet.
 - ⚡ Off the clock: cycling around Amsterdam, snowboarding, exploring new countries, but always learning new things.
 
 <br>
