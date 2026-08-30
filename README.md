@@ -5,6 +5,7 @@
 🌱 Personal Projects:
 -  **[Trivium](https://github.com/AndyMDH/trivium)** — a daily trivia game for iPhone
 -  **[obsidian-nous](https://github.com/AndyMDH/obsidian-nous)** - native meeting capture for Obsidian.
+-  **[warm-paper](https://github.com/AndyMDH/warm-paper)** - a quiet, editorial theme for Obsidian.
 - **[dbt-martmaker](https://github.com/AndyMDH/dbt-martmaker)** - open-source agent skill that drafts dbt mart models from a metric sheet.
 
 ⚡ Off the clock: cycling around Amsterdam, snowboarding, exploring new countries, but always learning new things.
