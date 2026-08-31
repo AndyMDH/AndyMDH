@@ -3,7 +3,7 @@
   <rect width="1000" height="168" rx="14" fill="#181818"/>
   <circle cx="24" cy="23" r="8" fill="#1DB954"/>
   <text x="42" y="28" font-family="Menlo, monospace" font-size="15" font-weight="bold" fill="#ffffff">Top tracks this month</text>
-  <text x="982" y="28" font-family="Menlo, monospace" font-size="10" fill="#6b6b6b" text-anchor="end">updated 2026-08-30</text>
+  <text x="982" y="28" font-family="Menlo, monospace" font-size="10" fill="#6b6b6b" text-anchor="end">updated 2026-08-31</text>
   <line x1="0" y1="46" x2="1000" y2="46" stroke="#2a2a2a" stroke-width="1"/>
   <line x1="200.0" y1="60" x2="200.0" y2="134" stroke="#2a2a2a" stroke-width="1"/>
   <line x1="400.0" y1="60" x2="400.0" y2="134" stroke="#2a2a2a" stroke-width="1"/>
