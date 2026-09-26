@@ -1,6 +1,6 @@
-### 👋 Hi there, I'm Dee Dee
+### 👋 Hi there, I'm Andy
 
-🔭 I'm currently an AI Consultant at Xebia.
+🔭 I'm currently an Analytics & AI Consultant at Xebia.
 
 🌱 Personal Projects:
 -  **[obsidian-nous](https://github.com/AndyMDH/obsidian-nous)** - native meeting capture for Obsidian.
